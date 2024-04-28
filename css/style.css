@@ -1,0 +1,70 @@
+.side{
+    left: 0;
+    width: 60px;
+
+}
+.sidenav{
+    width: 133px;
+    left: -200px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.row .inner img{
+    aspect-ratio: auto;
+    width: 100%;
+    margin:10px;
+}
+
+.overlay{
+    inset: 0 0 0 0;
+    top: 150%;
+   transition: all 500ms;
+}
+
+.inner:hover .overlay {
+   top: 0;
+   background-color: #fff;
+}
+
+.inner{
+    border-radius: 7px;
+}
+
+.shifted {
+    left: -145px;
+}
+
+.left-0{
+    left:0
+}
+.left-200{
+left: -200px;
+}
+.cancel,.cha{
+    cursor:pointer ;
+}
+
+.loading{
+    background-color: black;
+    position: fixed;
+    inset: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.link{
+    cursor: pointer;
+}
+
+main{
+    margin-inline: 100px;
+}
